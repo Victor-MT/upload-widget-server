@@ -1,6 +1,6 @@
 services:
   pg:
-    image: postgres:15
+    image: bitnami/postgresql:latest
     environment:
       POSTGRES_USER: docker
       POSTGRES_PASSWORD: docker
